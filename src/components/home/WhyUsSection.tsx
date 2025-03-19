@@ -28,7 +28,7 @@ const WhyUsSection = () => {
                 <div className='w-5/12 flex justify-end items-start'><img className='w-28 h-28 m-1' src={build18} alt="build icone" /></div>
                 <div className='w-5/12 flex items-start justify-start'><img className='w-44 h-44  m-1' src={build17} alt="build icone" /></div>
             </div>
-            <div className='w-44 h-44 rounded-full bg-red-600 items-center justify-center flex absolute mt-[-300px] ml-35'>
+            <div className='w-44 h-44 rounded-full bg-slate-100 opacity-90 items-center justify-center flex absolute mt-[-300px] ml-55'>
                 <img className='w-20 h-20' src={logo} alt="logo" />
             </div>
             

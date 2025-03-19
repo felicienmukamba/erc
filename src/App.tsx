@@ -4,6 +4,7 @@ import About from './pages/About'
 import { Route, Routes } from 'react-router'
 import Clarity from './pages/Clarity'
 import ClarityView from './pages/ClarityView'
+import Footer from './components/shared/Footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="realisations" element={<Clarity />} />
         <Route path="realisations/:slug" element={<ClarityView />} />
       </Routes>
+      <Footer/>
     </>
   )
 }
