@@ -1,4 +1,5 @@
 .bg-hero {
     background: linear-gradient(to top, #025b32, rgba(255, 255, 255, 0.1)), url('../assets/images/home/construction-silhouette1.png');
     background-size: cover;
+    height: 1000px;
 }

@@ -3,6 +3,12 @@ import location from '@/assets/images/footer/Place Marker.png'
 import tel from '@/assets/images/footer/Phone.png'
 import email from '@/assets/images/footer/Letter.png'
 
+import facebook from '@/assets/images/home/Facebook.png'
+import instagram from '@/assets/images/home/Instagram Circle.png'
+import linkedin from '@/assets/images/home/LinkedIn Circled.png'
+import twitter from '@/assets/images/home/X.png'
+import youtube from '@/assets/images/home/YouTube.png'
+
 
 const Footer = () => {
   return (
@@ -10,7 +16,7 @@ const Footer = () => {
       <div className='flex justify-between'>
         <div className='flex flex-col'>
             <div>
-                <img src={logoWhite} alt="" />
+                <img src={logoWhite} alt="logo-site" />
             </div>
             <div className="w-50 h-[1px] bg-slate-50 mb-5  my-2"></div>
             <div>
@@ -61,17 +67,19 @@ const Footer = () => {
             <div  className='text-white'>
                 <h6>Social media</h6>
             </div>
-            <div className="w-50 h-[1px] bg-slate-50 mb-5   my-2"></div>
+            <div className="w-50 h-[2px] bg-slate-50 opacity-60 mb-5 my-2"></div>
             <div>
-                <ul className='flex flex-col text-white'>
-                    <li>À propos de nous</li>
-                    <li>Pourquoi nous choisir</li>
-                    <li>Témoignage</li>
-                </ul>
-                <h6>Subscribe to our Newsletter</h6>
-                <form action="" method="post">
-                    <input type="email" name="email" id="email" placeholder='Enter your Email' />
-                    <button className='bg-gradient-to-r from-[#12284C]  to-[#056839]'>Subscribe</button>
+                <div className="py-2 flex">
+                    <img className='w-9 mr-1' src={youtube} alt="youtube icone" />
+                    <img className='w-9 mx-1' src={facebook} alt="facebook icone" />
+                    <img className='w-9 mx-1' src={instagram} alt="instagram icone" />
+                    <img className='w-9 mx-1' src={linkedin} alt="linkedin icone" />
+                    <img className='w-9 mx-1' src={twitter} alt="twitter icone" />
+                </div>
+                <h2 className='text-white font-bold'>Subscribe to our Newsletter</h2>
+                <form action="" method="post" className='flex'>
+                    <input className='bg-white p-4 rounded-2xl w-sm' type="email" name="email" id="email" placeholder='Enter your Email' />
+                    <button className='bg-gradient-to-r from-[#12284C]  to-[#056839] rounded-2xl text-white p-4 absolute right-6'>Subscribe</button>
                 </form>
             </div>
         </div>

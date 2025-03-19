@@ -7,7 +7,7 @@ const HeroSection = ({ children }: { children: ReactNode }) => {
       <div className="p-6">
         {children}
       </div>
-      <div className="flex flex-col justify-center mt-10">
+      <div className="flex flex-col justify-center items-center mt-10">
         <div className=" flex flex-col items-center ">
           <h6 className="text-center font-bold text-white text-4xl mb-5">Espace d’excellence de mise <br />
             en œuvre, études et Réalisations <br />
