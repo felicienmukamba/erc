@@ -1,5 +1,58 @@
 .bg-hero {
     background: linear-gradient(to top, #025b32, rgba(255, 255, 255, 0.1)), url('../assets/images/home/construction-silhouette1.png');
     background-size: cover;
-    height: 1000px;
+    height: 900px;
+}
+
+.bg-hero-about {
+    background: linear-gradient(to top, #025b32, rgba(255, 255, 255, 0.1)), url('../assets/images/about//construction-silhouette.png');
+    background-size: cover;
+    height: 600px;
+}
+
+.bg-hero-clarity {
+    background: linear-gradient(to top, #025b32, rgba(255, 255, 255, 0.1)), url('../assets/images/clarity/construction-silhouette.png');
+    background-size: cover;
+}
+
+@media (max-width: 1200px) {
+    .bg-hero-clarity {
+        height: 900px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bg-hero-clarity {
+        height: 960px;
+    }
+}
+
+@media (max-width: 847px) {
+    .bg-hero-clarity {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-hero-clarity {
+        height: 1100px;
+    }
+}
+
+@media (max-width: 610px) {
+    .bg-hero-clarity {
+        height: 1200px;
+    }
+}
+
+@media (max-width: 544px) {
+    .bg-hero-clarity {
+        height: 1400px;
+    }
+}
+
+@media (max-width: 381px) {
+    .bg-hero-clarity {
+        height: 1600px;
+    }
 }
