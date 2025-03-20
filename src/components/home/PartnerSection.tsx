@@ -42,7 +42,7 @@ const PartnerSection = () => {
         
     ]
   return (
-    <div className="bg-slate-50 opacity-65 mt-[-80px] flex flex-col items-center justify-center w-[80%] mx-auto rounded-xl p-1">
+    <div className="bg-slate-50 opacity-65 mt-[-80px] flex flex-col items-center justify-center w-10/12 mx-auto rounded-xl p-1">
         <div className="flex flex-col items-center justify-center mt-4 divide-slate-950 divide-y ">
         <div>
             <h2 className="text-3xl font-bold text-center mb-1">Nos partenaires</h2>
@@ -51,7 +51,7 @@ const PartnerSection = () => {
             <CarouselContent>
                 {
                     partners.map((partner, index)=> (
-                        <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/4 sm:basis-1/4">
+                        <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/4">
                         <div className="p-1">
                         <Card>
                             <CardContent className="flex flex-col aspect-square items-center justify-center">
